@@ -2,67 +2,37 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Budowa selektora</title>
+  <title>Selektory i deklaracje CSS</title>
   <style>
     body { font-family: Arial, sans-serif; }
     h1 { font-size: 1.5em; font-weight: bold; }
     p { font-size: 1em; line-height: 1.6; }
-    textarea { font-family: monospace; font-size: 1em; background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; width: 100%; }
-    ol, ul { padding-left: 20px; }
+    ol { padding-left: 20px; }
     code { font-family: monospace; background-color: #f0f0f0; padding: 5px; border-radius: 3px; }
   </style>
 </head>
 <body>
 <ol>
-  <li><h1>Składnia teoretyczna</h1>
-    <textarea cols="100" rows="5" readonly>
-<head>
-(...)
-<link rel="Stylesheet" type="text/css" href="style.css" />
-(...)
-</head>
-    </textarea>
+  <li><h1>Wymień oraz opisz dwie części selektora</h1>
+    Selektor składa się z cechy (np. p) oraz wartości (np.color: red).
   </li>
   
-  <li><h1>Gdzie wstawiany jest styl zewnętrzny?</h1>
-    Styl zewnętrzny jest wstawiany w &lt;head&gt; i może występować wielokrotnie.
+  <li><h1>Znaczenie nawiasów klamrowych {...}</h1>
+    W nawiasach klamrowych znajduje się deklaracja, która podaje formatowanie selektora.
   </li>
   
-  <li><h1>Najprostsza forma wstawiania stylu zewnętrznego</h1>
-    <textarea cols="100" readonly>
-<link rel="Stylesheet" type="text/css" href="style.css" />
-    </textarea>
-  </li>
-  <li><h1>Ile arkuszy styli może być dołączanych?</h1>
-    Nie ma limitu, ale każdy arkusz to osobny element &lt;link&gt;.
+  <li><h1>Opisz cechy</h1>
+    Cechy określają właściwości, które mogą przyjąć różne wartości (np. color).
   </li>
   
-  <li><h1>Co się dzieje w przypadku konfliktów?</h1>
-    Ważniejsze będą deklaracje z arkusza dołączonego później.
+  <li><h1>Opisz wartości</h1>
+    Wartości to konkretne definicje cech, np. red, #31F4A5.
   </li>
   
-  <li><h1>Tworzenie i edytowanie plików arkuszy</h1>
-    Można użyć edytora tekstowego lub specjalnego edytora CSS.
-  </li>
-  
-  <li><h1>Jakie rozszerzenie ma plik z arkuszem?</h1>
-    Plik musi mieć rozszerzenie*.css.
-  </li>
-  
-  <li><h1>Zalety zewnętrznego arkusza styli</h1>
-    <ul>
-      <li>Wspólne cechy dla całego serwisu.</li>
-      <li>Łatwe zmiany (np. czcionka) bez edytowania każdej strony.</li>
-    </ul>
-  </li>
-
-  <li><h1>Uwagi o CSS</h1>
-    <ul>
-      <li>LINK tylko w head.</li>
-      <li>Można dołączyć dowolną liczbę arkuszy.</li>
-      <li>W przypadku konfliktów ważniejsze będą późniejsze deklaracje.</li>
-    </ul>
+  <li><h1>Kiedy stosujemy znak średnika (;), a kiedy nie jest konieczny?</h1>
+    Średnik rozdziela wartości w deklaracjach. Na końcu ostatniej deklaracji średnik nie jest konieczny.
   </li>
 </ol>
 </body>
 </html>
+
