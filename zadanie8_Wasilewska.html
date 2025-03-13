@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Styl lokalny - teoria</title>
+  <title>Styl wewnętrzny - teoria</title>
   <style>
     body { font-family: Arial, sans-serif; }
     h1 { font-size: 1.5em; font-weight: bold; }
@@ -14,10 +14,28 @@
 </head>
 <body>
 <ol>
-  <li><h1>Na co pozwala styl lokalny?</h1><p>Styl lokalny pozwala na nadanie formatowania pojedynczemu elementowi strony.</p></li>
-  <li><h1>Składnia teoretyczna</h1><p>Przykład składni:</p><textarea readonly>&lt;selektor style="cecha1: wartość1; cecha2: wartość2"&gt;...&lt;/selektor&gt;</textarea></li>
-  <li><h1>Co może być selektorem?</h1><p>Selektorem może być każdy znacznik HTML, np. p, h1.</p></li>
-  <li><h1>Co wpisujemy jako "cechę"?</h1><p>Cechą jest np. color, a wartością np. red.</p></li>
+  <li><h1>Gdzie jest wstawiany?</h1>
+    Wstawia się w nagłówkowej części dokumentu (pomiędzy znacznikami &lt;head&gt; a &lt;/head&gt;).
+  </li>
+
+  <li><h1>Składnia teoretyczna</h1>
+    <textarea cols="100" rows="5" readonly>
+<head>
+(...)
+<style type="text/css">
+</style>
+(...)
+</head>
+    </textarea>
+  </li>
+  
+  <li><h1>Jakie mogą być selektory?</h1>
+    Selektorem może być prawie każdy znacznik HTML, np. p (akapit), h1 (nagłówek), td (komórka tabeli).
+  </li>
+
+  <li><h1>Jakie mogą być cechy i wartości?</h1>
+    "Cechą" jest atrybut formatowania, a "wartość" to jego konkretna definicja.
+  </li>
 </ol>
 </body>
 </html>
