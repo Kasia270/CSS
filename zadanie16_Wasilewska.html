@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Znaczniki DIV i SPAN</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    h1 { font-size: 1.5em; font-weight: bold; }
+    p { font-size: 1em; line-height: 1.6; }
+    textarea { font-family: monospace; font-size: 1em; background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; width: 100%; }
+    ol, ul { padding-left: 20px; }
+    code { font-family: monospace; background-color: #f0f0f0; padding: 5px; border-radius: 3px; }
+  </style>
+</head>
+<body>
+<ol>
+  <li><h1>Co to jest znacznik DIV?</h1>
+ <p>
+DIV to znacznik. który jest elementem blokowym może zawierać wewnątrz siebie zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia 
+obszerniejszych struktur. 
+ </p>
+<textarea cols="100" rows="3" readonly>
+<div>
+  Tekst
+</div>
+    </textarea>
+  <p>
+<strong>Gdzie używamy:</strong> Używamy, kiedy potrzebujemy wyodrębnić poszczególne bloki w układzie dokumentu np. lewa kolumna, menu nawigacyjne, stopka. <br>
+<strong>Jak działa:</strong> Tworzy sekcje (bloku) w pliku HTML w celu ich sformatowania za pomocą arkusza stylów CSS.  <br>
+<strong>Atrybuty:</strong> class, DIR, ID, LANG, STYLE, TITLE, ALIGN<br>
+<strong>ALIGN:</strong> Ustawia poziomo (wyrównuje) z uwzględnieniem otoczenia (zdeprecjonowane) poprzez: center, justify, left, right.
+  </p>
+  </li>
+
+  <li><h1>Co to jest znacznik SPAN?</h1>
+  <p>
+SPAN to znacznik, element liniowy, który nie może zawierać elementów blokowych, ale może inne elementy wyświetlane w linii oraz zwykły tekst.  
+    </p>
+    <textarea cols="100" rows="2" readonly>
+<span>
+  Tekst
+</span>
+    </textarea>
+  <p>
+<strong>Gdzie używamy:</strong> Kiedy, chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do wyodrębnienia tego tekstu i nie możemy użyć elementu div.<br>
+<strong>Jak działa:</strong> Objejmuje pewny większy fragment dokumentu, pojedynczym znacznikiem <span>...</span> (można kilka różnych elementów).
+  </p>
+  </li>
+
+  <li><h1>Czym się różni DIV i SPAN?</h1>
+    <ul>
+      <li>Span'em wyodrębniamy elementy liniowe.</li>
+      <li>Divem wyodrębniamy elementy blokowe. </li>
+    </ul>
+  </li>
+
+  <li><h1>Jakie są typy znaczników?</h1>
+ <p>
+      <strong>Liniowe:</strong> span, em, strong <br>
+      <strong>Blokowe:</strong> div, p, article <br>
+      <strong>Blokowo-liniowe:</strong> input, textarea <br>
+ </p>
+  </li>
+</ol>
+</body>
+</html>
+
+<!-- Kasia Wasilewska -->
